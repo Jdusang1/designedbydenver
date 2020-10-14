@@ -1,0 +1,21 @@
+li{
+    list-style-type: none;
+}
+
+#motto{
+    /* display: block; */
+    font-size: 48px;
+    text-align: right;
+    border: none;
+}
+#contact-info{
+    margin-top: 90px;
+    border: none;
+    font-size: 24px;
+    display: block;
+    text-align: left;
+}
+
+a{
+    color: black;
+}

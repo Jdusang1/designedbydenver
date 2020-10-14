@@ -1,0 +1,50 @@
+
+.imageContainer {
+    float: left;
+    width: 33.3%;
+    display: grid;
+}
+h2 {
+    font-size: calc(0.24 * 25vw);
+    margin: 0;
+    margin-bottom: 10px;
+    padding: calc(0.12 * 25vw) calc(0.07 * 25vw);
+    color: white;
+    writing-mode: vertical-rl;
+    line-height: 1;
+    position: absolute;
+    display: inline;
+    justify-content: left;
+    justify-self: right;
+    
+}
+
+#home-photo1{
+    background-image: url("../assets/IMG_6917.JPG") ;
+    height: 500px;
+    background-size: cover;
+   
+}
+
+#home-photo2{
+    background-image: url("../assets/IMG_9025.JPG");
+    height: 500px;
+    background-size: cover;
+    
+    
+
+}
+
+#home-photo3{
+    background-image: url("../assets/IMG_3927.JPG");
+    height: 500px;
+    background-size: cover;
+    
+    
+}
+
+.card-img{
+    
+    border: none;
+
+}
