@@ -20,14 +20,14 @@ h2 {
 }
 
 #home-photo1{
-    /* background-image: url("../assets/IMG_6917.JPG") ; */
+    background-image: url("../assets/IMG_6917.png") ;
     height: 500px;
     background-size: cover;
    
 }
 
 #home-photo2{
-    /* background-image: url("../assets/IMG_9025.JPG"); */
+    background-image: url("../assets/IMG_9025.png");
     height: 500px;
     background-size: cover;
     
@@ -36,7 +36,7 @@ h2 {
 }
 
 #home-photo3{
-    /* background-image: url("../assets/IMG_3927.JPG"); */
+    background-image: url("../assets/IMG_3927.png");
     height: 500px;
     background-size: cover;
     
