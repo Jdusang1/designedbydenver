@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardImg } from 'reactstrap';
-import Hotspring from "../assets/hotsprings edit.jpg"
 import Profile from "../assets/profile_Fotor.png"
 import styled from "styled-components"
 import "./BannerImg.css"
