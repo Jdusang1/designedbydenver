@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardImg, CardBody, CardText } from "reactstrap";
+import { Card, CardImg, CardBody, CardText, NavLink } from "reactstrap";
 import styled from "styled-components";
 import CircleImage from "./CircleImage";
 
@@ -22,23 +22,32 @@ const CardWrapper = styled.article`
     margin: 10px auto;
     
   }
+  
+  .nav-link{
+    justify-content: center;
+    text-align: center;
+  }
+
 `
 
 const ProjectCard = (props) => {
-    return (
+  return (
 
-        <CardWrapper>
-            <Card>
-                <CardImg top width="100%" src={props.img} alt="Card image cap" />
-                <CardBody>
+    <CardWrapper>
+      <Card>
+        <CardImg top width="100%" src={props.img} alt="Card image cap" />
+        <CardBody>
 
-                    <CardText>{props.text}</CardText>
+          <CardText>{props.text}</CardText>
 
-                </CardBody>
-            </Card>
-        </CardWrapper>
+        </CardBody>
 
-    )
+        <NavLink href="www.google.com">Link To Live Site</NavLink>
+        <NavLink href={props.text}>Link To Github</NavLink>
+      </Card>
+    </CardWrapper>
+
+  )
 };
 
 export default ProjectCard;

@@ -22,7 +22,7 @@ const ContactCard = () => {
 
                         <li>United States of America</li>
 
-                        <li><a href="JohnDusang1@gmail.com">John@designedbydenver.com</a></li>
+                        <li><a href="Johndusang1@gmail.com">Johndusang1@gmail.com</a></li>
 
                     </Card>
 
