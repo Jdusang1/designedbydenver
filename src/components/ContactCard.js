@@ -16,11 +16,13 @@ const ContactCard = () => {
                 </Col>
                 <Col>
                     <Card id="contact-info">
-                        {/* <li>Designed by Denver</li> */}
+                        <li>John Dusang</li>
+
+                        <li>8167162228</li>
 
                         <li>Denver, CO</li>
 
-                        <li>United States of America</li>
+                        {/* <li>United States of America</li> */}
 
                         <li><a href="Johndusang1@gmail.com">Johndusang1@gmail.com</a></li>
 

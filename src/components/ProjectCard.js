@@ -7,6 +7,7 @@ const CardWrapper = styled.article`
   .card {
     margin-top: 15px;
     border: 2px solid black;
+    height: 600px;
     
 
   }
