@@ -24,7 +24,7 @@ const CardWrapper = styled.article`
     
   }
   
-  .nav-link{
+  a{
     justify-content: center;
     text-align: center;
   }
@@ -43,8 +43,8 @@ const ProjectCard = (props) => {
 
         </CardBody>
 
-        <NavLink href="www.google.com">Link To Live Site</NavLink>
-        <NavLink href={props.text}>Link To Github</NavLink>
+        <a target="_blank" href={props.github}>Link to Github</a>
+        <a target="_blank" href={props.deploy}>Live Site</a>
       </Card>
     </CardWrapper>
 
