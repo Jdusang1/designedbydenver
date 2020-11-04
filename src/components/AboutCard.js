@@ -36,7 +36,7 @@ const AboutCard = () => {
             <Row>
                 <Col >
                     <Card id="what"><p>
-                        I bring a strong set of skills and values to any environment. Weather that be by my knowledge built around full stack Javascript development. My 15 plus years of experience in customer service, gaining pristine competence in communication. Building relationships that result in customer satisfaction, retention, and increased sales. Or my proven organizational and time management skills, consistently exceeding established goals while supporting day to day operations. I believe that a positive easy going attitude along with heavy drive has and will allow me to succeed.
+                        I bring a strong set of skills and values to any environment. Whether that be by my knowledge built around full stack Javascript development or my 15 plus years of experience in customer service. Building relationships that result in customer satisfaction, retention, and increased sales. Or my proven organizational and time management skills, consistently exceeding established goals while supporting day to day operations. I believe that a positive easy going attitude along with heavy drive has and will allow me to succeed.
                     </p>
                     </Card>
 
@@ -54,7 +54,7 @@ const AboutCard = () => {
             <Row>
                 <Col >
                     <Card id="where">
-                        <p>I would like to see myself in a position where I am able to remain creative and express my ideas through multiple platforms. Weather that be building websites and applications or developing marketing and branding blueprints for products, business and individuals.</p>
+                        <p>I would like to see myself in a position where I am able to remain creative and express my ideas through multiple platforms. Whether that be building websites and applications or developing marketing and branding blueprints for products, business and individuals.</p>
                     </Card>
 
                 </Col>
